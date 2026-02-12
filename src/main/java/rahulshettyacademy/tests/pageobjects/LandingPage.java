@@ -1,10 +1,10 @@
-package rahulshettyacademy.pageobjects;
+package rahulshettyacademy.tests.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import rahulshettyacademy.AbstractComponents.AbstractComponent;
+import rahulshettyacademy.tests.AbstractComponents.AbstractComponent;
 
 public class LandingPage extends AbstractComponent {
 
@@ -43,12 +43,12 @@ public class LandingPage extends AbstractComponent {
             return productCatalogue;
         }
 
-       /* public String getErrorMessage()
+       public String getErrorMessage()
         {
             waitForWebElementToAppear(errorMessage);
             return errorMessage.getText();
         }
-**/
+
         public void goTo()
         {
             driver.get("https://rahulshettyacademy.com/client");

@@ -1,4 +1,4 @@
-package rahulshettyacademy.pageobjects;
+package rahulshettyacademy.tests.pageobjects;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import rahulshettyacademy.AbstractComponents.AbstractComponent;
+import rahulshettyacademy.tests.AbstractComponents.AbstractComponent;
 
 
 public class OrderPage extends AbstractComponent {
