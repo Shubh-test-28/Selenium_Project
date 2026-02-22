@@ -1,17 +1,12 @@
-package rahulshettyacademy.tests;
+package shubhamProject.tests;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import rahulshettyacademy.TestComponents.BaseTest;
-import rahulshettyacademy.tests.pageobjects.*;
+import shubhamProject.TestComponents.BaseTest;
+import shubhamProject.tests.pageobjects.*;
 
 import java.io.IOException;
-import java.time.Duration;
 import java.util.List;
 
 @Test

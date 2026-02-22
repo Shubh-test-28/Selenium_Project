@@ -1,13 +1,11 @@
-package rahulshettyacademy.tests;
+package shubhamProject.tests;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import rahulshettyacademy.TestComponents.BaseTest;
-import rahulshettyacademy.tests.pageobjects.CartPage;
-import rahulshettyacademy.tests.pageobjects.CheckoutPage;
-import rahulshettyacademy.tests.pageobjects.ConfirmationPage;
-import rahulshettyacademy.tests.pageobjects.ProductCatalogue;
+import shubhamProject.TestComponents.BaseTest;
+import shubhamProject.tests.pageobjects.CartPage;
+import shubhamProject.tests.pageobjects.ProductCatalogue;
 
 import java.io.IOException;
 import java.util.List;
@@ -22,11 +20,11 @@ public class ErrorValidations extends BaseTest {
 
     }
     @Test
-    public void ProductErrorValidation() throws IOException, InterruptedException
+    public void ProductErrorValidation()  throws IOException, InterruptedException
     {
 
         String productName = "ZARA COAT 3";
-        ProductCatalogue productCatalogue = landingPage.loginApplication("Shubh28@gmail.com","Iamking@009");
+        ProductCatalogue productCatalogue = landingPage.loginApplication("Shubh28@gmail.com","Iamking@000");
         List<WebElement> products = productCatalogue.getProductList();
         productCatalogue.addProductToCart(productName);
         CartPage cartPage = productCatalogue.goToCartPage();

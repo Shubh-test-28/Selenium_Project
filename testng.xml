@@ -3,13 +3,13 @@
 <suite name="All Test Suite">
     <test thread-count="5"  name="SubmitOrderTest">
         <classes>
-             <class name="rahulshettyacademy.tests.SubmitOrder"/>
+             <class name="shubhamProject.tests.SubmitOrder"/>
         </classes>
     </test>
 
     <test thread-count="5" name="Error Validation Test">
         <classes>
-            <class name="rahulshettyacademy.tests.ErrorValidations"/>
+            <class name="shubhamProject.tests.ErrorValidations"/>
         </classes>
     </test>
 </suite>

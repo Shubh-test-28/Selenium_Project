@@ -1,4 +1,4 @@
-package rahulshettyacademy.tests.AbstractComponents;
+package shubhamProject.tests.AbstractComponents;
 
 import java.time.Duration;
 
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import rahulshettyacademy.tests.pageobjects.CartPage;
+import shubhamProject.tests.pageobjects.CartPage;
 
 public class AbstractComponent {
 
