@@ -1,4 +1,4 @@
-package rahulshettyacademy;
+package shubhamProject.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -13,7 +13,7 @@ import org.testng.Assert;
 import java.time.Duration;
 import java.util.List;
 
-public class SubmitOrder {
+public class stanAloneTest {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
 
