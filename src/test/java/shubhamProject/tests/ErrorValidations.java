@@ -19,7 +19,7 @@ public class ErrorValidations extends BaseTest {
         Assert.assertEquals("Incorrect email or password.",landingPage.getErrorMessage());
 
     }
-    @Test
+    @Test(groups = {"ErrorHandling"})
     public void ProductErrorValidation()  throws IOException, InterruptedException
     {
 
